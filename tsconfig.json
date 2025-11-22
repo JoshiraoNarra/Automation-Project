@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",        
+    "module": "CommonJS",
+    "strict": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "lib": ["ES2015", "DOM"],  
+    "outDir": "dist"
+  },
+  "include": ["tests", "pages", "utils"]
+}

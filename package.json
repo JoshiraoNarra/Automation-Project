@@ -1,0 +1,14 @@
+{
+  "name": "automation-project",
+  "version": "1.0.0",
+  "description": "A simple Playwright + TypeScript test project",
+  "scripts": {
+  "automation-tests": "npx playwright test ./tests --reporter=list"
+},
+  "author": "Joshi rao",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1"
+  }
+}
